@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../register/register.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/Logo.svg" />
+    <title>Cruip</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="/assets/shapes/header-shape.svg"
+        alt=""
+        srcset=""
+        class="shapes shape-top"
+      />
+      <img
+        class="shapes shape-bottom"
+        src="/register/images/shapes/shape-bottom.svg"
+        alt=""
+      />
+      <header class="header">
+        <div class="logo-container">
+          <a href="../index.html" class="logo-link">
+            <img
+              src="/assets/images/Logo.svg"
+              alt=""
+              srcset=""
+              class="logo-img"
+            />
+          </a>
+        </div>
+        <ul class="lists header-list">
+          <li class="header-list-item">
+            <a
+              href="login.html"
+              class="header-list-link default-buttons small-buttons button-blue style-button-1"
+              >Sign In</a
+            >
+          </li>
+          <li class="header-list-item">
+            <a
+              href="../register/register.html"
+              class="header-list-link default-buttons small-buttons button-grey style-button-2"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </header>
+      <section class="form-section">
+        <form id="login-form" method="dialog">
+          <fieldset>
+            <legend><h2 class="heading-second">Welcome back</h2></legend>
+            <div class="form-container">
+              <div class="form-inputs form-email">
+                <label for="email" class="labels">Work Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your email"
+                />
+              </div>
+              <div class="form-inputs form-password">
+                <label for="passowrd" class="labels">Password</label>
+                <span id="passwordError" class="error-message"></span>
+                <input
+                  type="password"
+                  name="passowrd"
+                  id="passowrd"
+                  placeholder="Your password"
+                />
+              </div>
+              <div class="buttons-form">
+                <button
+                  type="submit"
+                  class="btn-forms btn-register"
+                  form="login-form"
+                >
+                  Login
+                </button>
+                <p class="main-text btn-form-separation">or</p>
+                <button
+                  type=""
+                  class="btn-forms btn-google-signup"
+                  form="login-form"
+                >
+                  Sign In with Google
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+        <p class="main-text">
+          Already have an account? <a href="#" class="sign-in">Sign In</a>
+        </p>
+      </section>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

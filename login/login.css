@@ -1,0 +1,12 @@
+.shape-top {
+  right: 15rem;
+}
+.shape-bottom {
+  bottom: 4rem;
+}
+@media (max-width: 99.2rem) {
+}
+@media (max-width: 57.6rem) {
+}
+@media (max-width: 35rem) {
+}
