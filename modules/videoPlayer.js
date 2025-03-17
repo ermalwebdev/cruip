@@ -1,7 +1,7 @@
 export function setupVideoPlayer(videoId, posterPath) {
   const player = videojs(videoId, {
     controls: true,
-    autoplay: false,
+    autoplay: true,
   });
 
   player.poster(posterPath);
