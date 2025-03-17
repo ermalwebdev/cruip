@@ -699,9 +699,9 @@ section:last-of-type::before {
     height: 25rem;
     margin: 3rem 0 0 0;
   }
-  video-js {
+  #vid1 {
     max-width: inherit;
-    max-height: inherit;
+    height: inherit;
   }
   .heading-second {
     font-size: 2rem;
