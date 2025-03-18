@@ -8,4 +8,4 @@ const passwordInput = document.querySelector("#passowrd");
 const errorMsgPassword = document.querySelector(".error-message");
 
 registerForm(registerBtn, passwordInput, errorMsgPassword);
-preventDefaultLinks(links);
+// preventDefaultLinks(links);

@@ -9,7 +9,7 @@ const registerBtn = document.querySelector(".btn-register");
 const errorMsgPassword = document.querySelector(".error-message");
 
 //Preventing links
-preventDefaultLinks(links);
+// preventDefaultLinks(links);
 //email validity
 registerForm(registerBtn, passwordInput, errorMsgPassword);
 
