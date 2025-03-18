@@ -17,7 +17,7 @@ const testimonialItemContainers =
 const testimonialIconsSvg = document.querySelectorAll(".testimonial-svg");
 
 //All links preventDefault
-// preventDefaultLinks(links);
+preventDefaultLinks(links);
 
 //VideoJS Settings
 setupVideoPlayer("vid1", "../assets/videos/thumbnails/vid1-thumbnail.png");
